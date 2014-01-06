@@ -1,0 +1,20 @@
+3- Basic Ruby stuff
+	a) Create a constant variable.
+
+		TAHIRY = "Aina Tahiry"
+
+	What are constants? Why do we use them? How are they defferent then other ruby variables?
+
+		A constant is a variable with a fixed value and its value remains constant for the duration of the program. Constant variable names begin with a capital letter.
+
+	b) inside ruby-project-4.rb
+	c) inside ruby-project-4.rb
+
+	d) what is a boolean?
+		a boolean is like a variable that can only have one of two possible values, true or false.
+
+	e) if a is a boolean (true) !a would return nil
+	f) 	a == 'hi' means a is equal to the string 'hi' ( usually used on comparison)
+		a = 'hi' the variable a is set to the value 'hi'
+
+	g) inside ruby-project-4.rb

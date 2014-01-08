@@ -1,3 +1,20 @@
+# Step 1
+require 'json'
+require 'yaml'
+require 'csv'
+# Given the following hash:
+hash = {"Chevrolet" => "Malibu", "Ford" => "Mustang", :Ford => "Taurus", :Chevrolet => "Cobalt"}
+
+# Convert it into the following formats:
+
+	# JSON
+	hash.to_json
+
+	# YAML
+	hash.to_yaml
+	
+	# CSV
+	CSV.open("hash.csv", "wb") {|csv| hash.to_a.each {|elem| csv << elem} }
 # Step 2
 # a) Read on Ruby classes
 # b) Create a simple Ruby class called "Book"

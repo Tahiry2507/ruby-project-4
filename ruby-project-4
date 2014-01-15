@@ -13,7 +13,7 @@
 	d) what is a boolean?
 		a boolean is like a variable that can only have one of two possible values, true or false.
 
-	e) if a is a boolean (true) !a would return nil
+	e) if a is a boolean (true) !a would return false
 	f) 	a == 'hi' means a is equal to the string 'hi' ( usually used on comparison)
 		a = 'hi' the variable a is set to the value 'hi'
 
